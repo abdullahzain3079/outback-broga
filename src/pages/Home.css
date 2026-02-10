@@ -554,6 +554,10 @@
     gap: var(--space-md);
   }
 
+  .highlight-card {
+    padding: var(--space-lg) var(--space-md);
+  }
+
   .menu-preview__grid {
     grid-template-columns: 1fr;
   }
@@ -573,5 +577,28 @@
 
   .hero__scroll-indicator {
     display: none;
+  }
+
+  .hero__label {
+    font-size: 0.65rem;
+    letter-spacing: 2px;
+    padding: 6px 14px;
+  }
+
+  .hero__badges {
+    gap: var(--space-sm);
+  }
+
+  .hero__badge {
+    font-size: var(--fs-xs);
+    padding: 6px 12px;
+  }
+
+  .experience-banner__title {
+    font-size: var(--fs-h2);
+  }
+
+  .cta-section__title {
+    font-size: var(--fs-h2);
   }
 }

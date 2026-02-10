@@ -226,7 +226,37 @@
     gap: var(--space-sm);
   }
 
+  .gallery-filters {
+    gap: 6px;
+  }
+
+  .gallery-filter {
+    padding: 8px 16px;
+    font-size: var(--fs-xs);
+  }
+
   .lightbox__nav {
     font-size: 1.8rem;
+  }
+
+  .lightbox__nav--prev {
+    left: 8px;
+  }
+
+  .lightbox__nav--next {
+    right: 8px;
+  }
+
+  .lightbox__close {
+    top: 12px;
+    right: 12px;
+  }
+
+  .lightbox {
+    padding: var(--space-sm);
+  }
+
+  .gallery-instagram {
+    padding: var(--space-lg) var(--space-md);
   }
 }

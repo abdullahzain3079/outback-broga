@@ -244,6 +244,10 @@
     grid-template-columns: 1fr;
   }
 
+  .contact-card {
+    padding: var(--space-md);
+  }
+
   .faq-item__question {
     padding: var(--space-sm) var(--space-md);
     font-size: var(--fs-small);
@@ -251,5 +255,9 @@
 
   .faq-item--open .faq-item__answer {
     padding: 0 var(--space-md) var(--space-sm);
+  }
+
+  .faq-item__toggle {
+    font-size: 1.2rem;
   }
 }

@@ -272,4 +272,12 @@ input, textarea, select {
   :root { --nav-height: 70px; }
   .section { padding: var(--space-xl) 0; }
   .container { padding: 0 var(--space-sm); }
+  .btn--lg { padding: 14px 32px; font-size: var(--fs-small); }
+}
+
+@media (max-width: 400px) {
+  .container { padding: 0 12px; }
+  .btn { padding: 12px 24px; font-size: var(--fs-xs); }
+  .btn--lg { padding: 14px 28px; }
+  .section-title { margin-bottom: var(--space-sm); }
 }
